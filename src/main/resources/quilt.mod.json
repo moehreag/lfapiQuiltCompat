@@ -1,0 +1,32 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "io.github.moehreag",
+		"id": "lfapiquiltcompat",
+		"version": "${version}",
+		"metadata": {
+			"name": "Legacy Fabric API quilt compat mod",
+			"description": "Provides the necessary internals for LFAPI to work with the Quilt Loader",
+			"contributors": {
+				"moehreag": "Owner"
+			},
+			"contact": {
+				"sources": "https://github.com/moehreag/lfapiquiltcompat"
+			},
+			"icon": "assets/lfapiquiltcompat/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": "*"
+			},
+			{
+				"id": "legacy-fabric-api",
+				"versions": "*"
+			}
+		]
+	}
+}
